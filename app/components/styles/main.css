@@ -1,0 +1,232 @@
+
+.feature-box {
+  background-color: pink;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-icon {
+  max-width: 140px;
+  margin-bottom: 20px;
+}
+
+.feature-icon img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.feature-box h3 {
+  font-size: 16px;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-box p {
+  font-size: 10px;
+  text-align: center;
+}
+
+/* ---------- SEARCH INPUT ---------- */
+
+.profession-input {
+  background-color: #ffb6c1;
+  color: white;
+  border: 1px solid #ff9ab0;
+}
+
+.profession-input::placeholder {
+  color: white;
+  opacity: 0.9;
+}
+
+/* ---------- CAROUSEL ABOUT US ---------- */
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-box {
+  position: relative;
+  width: 50%;
+  background-color: #ff4da6;
+  color: white;
+  padding: 20px 15px;
+  border-radius: 0 15px 15px 0;
+  z-index: 1;
+  
+}
+
+.carousel-image {
+  position: absolute;
+  top: 10%;
+  right: -70%;
+  height: 80%;
+}
+
+.carousel-image img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.more-btn {
+  background-color: white;
+  color: pink;
+  border: 0;
+}
+
+/* -------------- ORGANISATIONS SECTION -------------- */
+
+.feature-section {
+  display: flex;
+  width: 100%;
+}
+
+.left-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.icons-row {
+  display: flex;
+  gap: 10px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.icon-btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  width: 120px;
+}
+
+.right-box {
+  flex: 1.2;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-left: 20px;
+  height: auto;
+}
+
+.right-box p {
+  font-size: 10px;
+}
+
+/* -------------- CONTACT FORM -------------- */
+
+.form-feature-section {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group label {
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px 0;
+  background: transparent;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-bottom: 2px solid #ff4da6;
+}
+
+.send-btn {
+  background-color: #ff4da6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 120px;
+}
+
+.feature-column {
+  flex: 0.8;
+  background-color: #ff4da6;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: 60px auto;
+  column-gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.icon-row-bottom {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.bottom-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* -------------- FOOTER -------------- */
+
+.footer-wrapper{
+  
+  width: 100%;
+  display: block;
+}
+
+
+
